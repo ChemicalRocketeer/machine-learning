@@ -26,9 +26,9 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 % Hint: You might find the 'mean' and 'std' functions useful.
 %       
 
-mu = mean(X)
-sigma = std(X)
-X_norm = (X - mu) ./ sigma
+mu = mean(X);
+sigma = std(X);
+X_norm = (X - mu) ./ sigma;
 
 
 
