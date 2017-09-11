@@ -12,8 +12,14 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
+posIndex = y(:,1)==1;
+xPos = X(posIndex,:)
 
+negIndex = y(:,1)==0;
+xNeg = X(negIndex,:)
 
+plot(xPos(:,1), xPos(:,2), 'k+', 'MarkerSize', 8);
+plot(xNeg(:,1), xNeg(:,2), 'ko', 'MarkerSize', 8);
 
 
 
