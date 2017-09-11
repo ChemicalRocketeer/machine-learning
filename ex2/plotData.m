@@ -18,8 +18,8 @@ xPos = X(posIndex,:);
 negIndex = y(:,1)==0;
 xNeg = X(negIndex,:);
 
-plot(xPos(:,1), xPos(:,2), 'k+', 'MarkerSize', 8);
-plot(xNeg(:,1), xNeg(:,2), 'ko', 'MarkerSize', 8);
+plot(xPos(:,1), xPos(:,2), 'k+', 'MarkerSize', 8, 'LineWidth', 2);
+plot(xNeg(:,1), xNeg(:,2), 'ko', 'MarkerSize', 8, 'MarkerFaceColor', 'r');
 
 
 
